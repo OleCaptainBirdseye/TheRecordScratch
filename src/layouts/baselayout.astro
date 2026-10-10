@@ -1,8 +1,7 @@
 ---
 import Header from '../components/header.astro';
-import '../styles/global.css';
 import Footer from '../components/footer.astro';
-
+import '../styles/global.css';
 const pageTitle = "Home";
 ---
 
@@ -21,8 +20,8 @@ const pageTitle = "Home";
 		<h1>{pageTitle}</h1>
         <slot />
 		<Footer />
-		  <script>
-    import "../scripts/menu.js";
-  </script>
+		    <script>
+            import "../scripts/menu.js";
+            </script>
 	</body>
 </html>
